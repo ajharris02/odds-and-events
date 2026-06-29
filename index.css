@@ -1,0 +1,21 @@
+#numbersAddedToBank {
+  display: block;
+  border: 2px solid;
+  background-color: white;
+  min-height: 5rem;
+  border-radius: 12px;
+}
+#oddNumbersFromBank {
+  display: block;
+  border: 2px solid;
+  background-color: white;
+  min-height: 5rem;
+  border-radius: 12px;
+}
+#evenNumbersFromBank {
+  display: block;
+  border: 2px solid;
+  background-color: white;
+  min-height: 5rem;
+  border-radius: 12px;
+}

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title>Odds and Events</title>
@@ -8,5 +8,22 @@
   </head>
   <body>
     <div id="app"></div>
+    <h1>Odds and Events</h1>
+    <hr />
+    <form id="addToBank">
+      <label>
+        Add a number to the bank
+        <input id="numberInput" type="number" name="Add number" />
+      </label>
+      <button id="addNumberButton" type="submit">Add number</button>
+      <button id="sort1" type="button">Sort 1</button>
+      <button id="sortAll" type="button">Sort All</button>
+    </form>
+    <h2>Bank</h2>
+    <output id="numbersAddedToBank"></output>
+    <h2>Odds</h2>
+    <output id="oddNumbersFromBank"></output>
+    <h2>Evens</h2>
+    <output id="evenNumbersFromBank"></output>
   </body>
 </html>
